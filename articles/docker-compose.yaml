@@ -1,0 +1,7 @@
+services:
+  review:
+    image: vvakame/review:5.8
+    volumes:
+      - .:/CGP_VR_StarterBook
+    build: .
+    working_dir: /CGP_VR_StarterBook
