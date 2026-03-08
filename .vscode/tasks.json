@@ -4,7 +4,7 @@
         {
             "label": "Re:VIEW Build PDF",
             "type": "shell",
-            "command": "docker run --rm -v ${workspaceFolder}:/work vvakame/review /bin/bash -c 'cd C:/Users/haru2/Documents/GitHub/CGP_VR_StarterBook/articles && rake pdf'",
+            "command": "docker run --rm -v ${workspaceFolder}:/work vvakame/review /bin/bash -c 'cd /work/articles && rake cgp_publish'",
             "group": {
                 "kind": "build",
                 "isDefault": true

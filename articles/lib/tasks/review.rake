@@ -143,4 +143,9 @@ end
 desc 'build with vivliostyle'
 task vivliostyle: 'vivliostyle:build'
 
+# 追加するpublishタスク
+task :cgp_publish => [:pdf] do
+  sh "cp CGP.pdf vscode_viewer.pdf"
+end
+
 CLEAN.include([BOOK, BOOK_PDF, BOOK_EPUB, BOOK + '-pdf', BOOK + '-epub', WEBROOT, 'images/_review_math', 'images/_review_math_text', TEXTROOT, IDGXMLROOT])
