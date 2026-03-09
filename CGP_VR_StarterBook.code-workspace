@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "../../資料"
+		},
+		{
+			"path": "../CGP_2025_Mission_VR/Assets/Project/Scripts"
 		}
 	]
 }
