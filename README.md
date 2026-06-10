@@ -1,3 +1,7 @@
+<p>
+  <img src="articles/images/CGPロゴ.jpg" width="400">
+</p>
+
 # CGP_VR_StarterBook
 本資料は、和歌山大学 クリエゲーム制作プロジェクト（CGP）によって、
 
